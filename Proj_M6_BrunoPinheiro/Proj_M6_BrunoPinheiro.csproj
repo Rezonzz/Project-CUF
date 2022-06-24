@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{739B3117-13A4-4C1C-9E0F-9341D06099CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proj_M6_BrunoPinheiro</RootNamespace>
+    <AssemblyName>Proj_M6_BrunoPinheiro</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\brudi\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/Proj_M6_BrunoPinheiro/</UpdateUrl>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9BD52EEF7E334ACB5832777E2C5D26EA13FB71FA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Proj_M6_BrunoPinheiro_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_areaadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_areaadmin.Designer.cs">
+      <DependentUpon>frm_areaadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_autor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_autor.Designer.cs">
+      <DependentUpon>frm_autor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_consultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_consultar.Designer.cs">
+      <DependentUpon>frm_consultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_contacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_contacto.Designer.cs">
+      <DependentUpon>frm_contacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_definicoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_definicoes.Designer.cs">
+      <DependentUpon>frm_definicoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_exames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_exames.Designer.cs">
+      <DependentUpon>frm_exames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_inicio.Designer.cs">
+      <DependentUpon>frm_inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_loginadmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_loginadmin.Designer.cs">
+      <DependentUpon>frm_loginadmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_menu.Designer.cs">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_notificacoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_notificacoes.Designer.cs">
+      <DependentUpon>frm_notificacoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_pesquisar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_pesquisar.Designer.cs">
+      <DependentUpon>frm_pesquisar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_registrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_registrar.Designer.cs">
+      <DependentUpon>frm_registrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_signin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_signin.Designer.cs">
+      <DependentUpon>frm_signin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_sobrenos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_sobrenos.Designer.cs">
+      <DependentUpon>frm_sobrenos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frm_areaadmin.resx">
+      <DependentUpon>frm_areaadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_autor.resx">
+      <DependentUpon>frm_autor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_consultar.resx">
+      <DependentUpon>frm_consultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_contacto.resx">
+      <DependentUpon>frm_contacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_definicoes.resx">
+      <DependentUpon>frm_definicoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_exames.resx">
+      <DependentUpon>frm_exames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_inicio.resx">
+      <DependentUpon>frm_inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_loginadmin.resx">
+      <DependentUpon>frm_loginadmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_menu.resx">
+      <DependentUpon>frm_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_notificacoes.resx">
+      <DependentUpon>frm_notificacoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_pesquisar.resx">
+      <DependentUpon>frm_pesquisar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_registrar.resx">
+      <DependentUpon>frm_registrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_signin.resx">
+      <DependentUpon>frm_signin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_sobrenos.resx">
+      <DependentUpon>frm_sobrenos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Proj_M6_BrunoPinheiro_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UsersDataSet.xsc">
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UsersDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsersDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UsersDataSet.xss">
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagem_2022-05-31_144529030.png" />
+    <None Include="Resources\imagem_2022-05-31_144625029-removebg-preview.png" />
+    <None Include="Resources\transferir %285%29.jpg" />
+    <None Include="Resources\unnamed2.png" />
+    <None Include="Resources\qrcodecuf1.png" />
+    <None Include="Resources\user1.png" />
+    <None Include="Resources\padlock1.png" />
+    <None Include="Resources\exam %281%29 %282%291.png" />
+    <None Include="Resources\exam %281%29.png" />
+    <None Include="Resources\exam.png" />
+    <None Include="Resources\exam %282%291.png" />
+    <None Include="Resources\Captura_de_ecrã_2022-05-31_001507-removebg-preview.png" />
+    <None Include="Resources\Captura_de_ecrã_2022-05-31_001507-removebg-preview %282%29.png" />
+    <None Include="Resources\Captura_de_ecrã_2022-05-31_001431-removebg-preview.png" />
+    <None Include="Resources\Captura_de_ecrã_2022-05-31_001431-removebg-preview %282%29.png" />
+    <None Include="Resources\Captura_de_ecrã_2022-05-31_001442-removebg-preview %282%29.png" />
+    <None Include="Resources\kisspng-cuf-descobertas-hospital-cuf-infante-santo-hospit-portugal-logo-5b28de70f3fbc7.93083818152940504099941.png" />
+    <None Include="Resources\imagem_2022-05-31_144625029-removebg-preview1.png" />
+    <None Include="Resources\imagem_2022-05-31_1445290301.png" />
+    <None Include="Resources\sair %281%29 %283%29.png" />
+    <None Include="Resources\imagem_2022-05-31_144529030 %281%29.png" />
+    <None Include="Resources\imagem_2022-05-31_144529030 %282%29.png" />
+    <None Include="Resources\sobre-nos-comunicacao1.jpeg" />
+    <None Include="Resources\ezgif.com-gif-maker1.gif" />
+    <None Include="Resources\exam %281%29 %282%292.png" />
+    <None Include="Resources\exam %282%292.png" />
+    <None Include="Resources\lupa %283%29 %281%291.png" />
+    <None Include="Resources\exit %281%29.png" />
+    <None Include="Resources\exit %281%29 %282%29.png" />
+    <None Include="Resources\definicoes %281%291.png" />
+    <None Include="Resources\email %281%291.png" />
+    <None Include="Resources\minus.png" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\imagem_2022-05-31_144625029-removebg-preview2.png" />
+    <None Include="Resources\definicoes.png" />
+    <None Include="Resources\imagem_2022-05-31_144625029-removebg-preview3.png" />
+    <None Include="Resources\refresh %281%291.png" />
+    <None Include="Resources\unnamed3.png" />
+    <None Include="Resources\waiting-texting1.gif" />
+    <None Include="Resources\doutorbruno2.png" />
+    <None Include="Resources\Instagram1.png" />
+    <None Include="Resources\Captura de ecrã 2022-06-05 1950371.png" />
+    <None Include="Resources\facebook %281%291.png" />
+    <None Include="Resources\instagrablack.png" />
+    <None Include="Resources\linkedin.png" />
+    <None Include="Resources\youtube.png" />
+    <None Include="Resources\management %281%29.png" />
+    <Content Include="Users.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
