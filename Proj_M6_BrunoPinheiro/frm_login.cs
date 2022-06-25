@@ -110,5 +110,10 @@ namespace Proj_M6_BrunoPinheiro
                 txt_password.Focus();
             }
         }
+
+        private void frm_login_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

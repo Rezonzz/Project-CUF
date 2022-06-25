@@ -322,7 +322,7 @@ namespace Proj_M6_BrunoPinheiro
             // 
             this.pic_minimize.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_minimize.Image = global::Proj_M6_BrunoPinheiro.Properties.Resources.minus;
-            this.pic_minimize.Location = new System.Drawing.Point(700, 3);
+            this.pic_minimize.Location = new System.Drawing.Point(694, 4);
             this.pic_minimize.Name = "pic_minimize";
             this.pic_minimize.Size = new System.Drawing.Size(21, 20);
             this.pic_minimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -334,7 +334,7 @@ namespace Proj_M6_BrunoPinheiro
             // 
             this.pic_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pic_close.Image = global::Proj_M6_BrunoPinheiro.Properties.Resources.cancel;
-            this.pic_close.Location = new System.Drawing.Point(727, 3);
+            this.pic_close.Location = new System.Drawing.Point(722, 4);
             this.pic_close.Name = "pic_close";
             this.pic_close.Size = new System.Drawing.Size(21, 20);
             this.pic_close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

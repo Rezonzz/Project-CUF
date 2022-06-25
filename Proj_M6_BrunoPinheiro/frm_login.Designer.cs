@@ -303,6 +303,7 @@ namespace Proj_M6_BrunoPinheiro
             this.Name = "frm_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Log in - CUF Descobertas";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frm_login_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pic_mycuf)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_qrcode)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_password)).EndInit();

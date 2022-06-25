@@ -18,9 +18,21 @@ namespace Proj_M6_BrunoPinheiro
         string passar_nome, login;
 
         private Form currentChildForm;
+
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+       (
+           int nLeftRect,
+           int nTopRect,
+           int nRightRect,
+           int nBottomRect,
+           int nWidthEllipse,
+           int nHeightEllipse
+       );
         public frm_exames()
         {
             InitializeComponent();
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 12, 12));
         }
         public void passar_login(String login)
         {

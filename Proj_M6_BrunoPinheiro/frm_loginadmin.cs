@@ -12,6 +12,7 @@ namespace Proj_M6_BrunoPinheiro
 {
     public partial class frm_loginadmin : Form
     {
+
         public frm_loginadmin()
         {
             InitializeComponent();
@@ -70,6 +71,7 @@ namespace Proj_M6_BrunoPinheiro
                 MessageBox.Show("Log in concluido com sucesso.", "Log in - Admin - CUF Descobertas");
                 frm_areaadmin frm_areaadmin = new frm_areaadmin();
                 frm_areaadmin.Show();
+                this.Close();
             }
             else
             {
