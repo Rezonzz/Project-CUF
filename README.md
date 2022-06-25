@@ -1,9 +1,14 @@
 # Project-CUF
 A project in C# about the management of a hospital, a hospital that was made as an example about "CUF", a Portuguese hospital
 
-#Screenshots
-
-![image](https://user-images.githubusercontent.com/95320065/175752636-649fd880-761b-4af0-8479-3f6a647e18ee.png)
-![image](https://user-images.githubusercontent.com/95320065/175752670-51a89c0a-5c0f-43a0-ba25-b858430083f0.png)
-![image](https://user-images.githubusercontent.com/95320065/175752683-07ff5d93-3927-47e1-9594-e16cde32efab.png)
+### Screenshots                     
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95320065/175753097-c577a7b4-ead0-405e-a7bf-d540b7f53477.png">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95320065/175753142-325ae295-b3b1-4b5d-8cff-8ddbc6a907f4.png">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/95320065/175753057-1faf8d0a-fc84-45e7-9648-5251cd7da945.png">
+</p>
 
